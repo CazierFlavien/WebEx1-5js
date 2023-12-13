@@ -1,0 +1,75 @@
+/* Styles pour les divs */
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Styles pour le contenu principal */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Styles pour les divs */
+.divD {
+    margin: 10px;
+    padding: 20px;
+    color: aliceblue;
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.divD:hover {
+    background-color: darkviolet;
+}
+
+.ancienneClasse {
+    margin: 10px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ancienneClasse:hover {
+    background-color: crimson;
+}
+
+/* Styles pour le div qui disparaît au survol */
+#monDiv2 {
+    margin: 20px;
+    padding: 20px;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+#monDiv2:hover {
+    opacity: 0;
+}
+

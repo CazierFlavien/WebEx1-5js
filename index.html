@@ -1,17 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Premier webjs</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-   
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <title>Test JS</title>
 </head>
 <body>
-    
-    
-
+    <header>
+        <h1>Interactions JavaScript</h1>
+    </header>
+    <main>
+        <div id="Methode2" class="divD">Clic moi dessus</div>
+        <div id="Methode3" class="divD">Survole moi dessus</div>
+        <div id="Methode4" class="divD" tabindex="0">Appui au clavier</div>
+        <div id="monDiv" class="ancienneClasse">Click</div>
+        <div id="monDiv2" onmouseover="changerVisibilite(true)" onmouseout="changerVisibilite(false)">
+            Ne me survole pas ou je disparais !
+        </div>
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>
+
+
 
